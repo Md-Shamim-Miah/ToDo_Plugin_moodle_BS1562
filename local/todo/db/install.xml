@@ -3,7 +3,7 @@
     <TABLES>
         <TABLE NAME="local_student_details" COMMENT="Table for storing student details">
             <FIELDS>
-                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" AUTOINCREMENT="true" COMMENT="Primary key"/>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" COMMENT="Primary key"/>
                 <FIELD NAME="name" TYPE="char" LENGTH="100" NOTNULL="true" DEFAULT="" COMMENT="Student name"/>
                 <FIELD NAME="roll" TYPE="char" LENGTH="20" NOTNULL="true" DEFAULT="" COMMENT="Roll number"/>
                 <FIELD NAME="email" TYPE="char" LENGTH="100" NOTNULL="true" DEFAULT="" COMMENT="Student email"/>
